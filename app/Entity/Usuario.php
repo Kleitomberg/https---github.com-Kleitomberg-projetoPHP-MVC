@@ -30,7 +30,7 @@ class Usuario{
    *  @var String (pf/pj)
    * 
    */
-  //public $perfil;
+  public $perfil;
 
 
   /** metodo responsavel por casatrar um novo usuario ao banco
@@ -46,8 +46,8 @@ class Usuario{
           'email' => $this->email,
           'numero' => $this->numero,
           'senha' => $this->senha,
-          'tipopfpj' => $this->tipo
-          //'idperfil_usuario_fk' => $this->perfil
+          'tipopfpj' => $this->tipo,
+          'idperfil_usuario_fk' => $this->perfil
     ]);
 
     
@@ -64,8 +64,8 @@ class Usuario{
           'email' => $this->email,
           'numero' => $this->numero,
           'senha' => $this->senha,
-          'tipopfpj' => $this->tipo
-          //'idperfil_usuario_fk' => $this->perfil
+          'tipopfpj' => $this->tipo,
+          'idperfil_usuario_fk' => $this->perfil
     ]);
 
   }

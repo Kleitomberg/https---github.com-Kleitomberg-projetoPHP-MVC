@@ -39,7 +39,7 @@ Class Database{
     try{
       $this->connection = new PDO('mysql:host='.self::HOST.'; dbname='.self::NAME, self::USER, self::PASSWORD);
       $this->connection->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-    }catch(PDOExeption $e){
+    }catch(PDOException $e){
       die("ERROR: " .$e->getMessage() ); // mudar isso depois exibindo uma mensagem mais amigavel e armazenando a o erro no log
 
     }
