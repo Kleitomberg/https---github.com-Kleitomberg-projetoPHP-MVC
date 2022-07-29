@@ -23,8 +23,8 @@ if(isset (
     $_POST['email'],
     $_POST['numero'],
     $_POST['senha'],
-    $_POST['flexRadioDefault'],
-    $_POST['perfil']    
+    $_POST['flexRadioDefault']
+     
   )){
 
     $obemail = Usuario::getUsuarioporEmail($_POST['email']);
@@ -42,7 +42,7 @@ if(isset (
   $obUsuario->numero = $_POST['numero'];
   $obUsuario->senha =password_hash($_POST['senha'], PASSWORD_DEFAULT); 
   $obUsuario->tipo = $_POST['flexRadioDefault'];
-  $obUsuario->perfil = $_POST['perfil'];
+
 
 
  

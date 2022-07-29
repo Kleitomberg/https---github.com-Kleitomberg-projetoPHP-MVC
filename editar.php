@@ -35,8 +35,8 @@ if(isset (
     $_POST['email'],
     $_POST['numero'],
     $_POST['senha'],
-    $_POST['flexRadioDefault'],
-    $_POST['perfil']    
+    $_POST['flexRadioDefault']
+       
   )){
  
   
@@ -47,7 +47,7 @@ if(isset (
   $obUsuario->numero = $_POST['numero'];
   $obUsuario->senha = $_POST['senha'];
   $obUsuario->tipo = $_POST['flexRadioDefault'];
-  $obUsuario->perfil = $_POST['perfil'];
+ 
 
   
   

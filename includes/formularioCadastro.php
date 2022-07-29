@@ -65,9 +65,7 @@ $alertcadastro = strlen($alertcadastro) ? '<div class="alert alert-danger">'.$al
     <input type="password" name="senha" id="senha" class="form-control"  require>
   </div>
 
-  <div class="form-group">
-  <input type="hidden" name="perfil" value="2">
-  </div>
+
   
     <div class="form-group text-center mb-3">
     
